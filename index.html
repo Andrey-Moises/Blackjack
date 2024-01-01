@@ -17,11 +17,11 @@
 
     <div class="row mt-2">
 
-        <div class="col text-center">
+        <div id="divBotones" class="col text-center">
 
-            <button class = "btn btn-danger" >New Game</button>
-            <button class = "btn btn-primary" >Hit</button>
-            <button class = "btn btn-primary" >Stand</button>
+            <button id = 'btnNewGame' class = "btn btn-danger"  >New Game</button>
+            <button id = 'btnHit'     class = "btn btn-primary" >Hit</button>
+            <button id = 'btnStay'    class = "btn btn-primary" >Stand</button>
 
         </div>
 
@@ -34,8 +34,8 @@
             <h1>Player - <small>0</small></h1>
 
             <div id="jugador-cartas" class="jugador-cartas">
-                <img class="carta" src="assets/cartas/2C.png" alt="">
-                <img class="carta" src="assets/cartas/2C.png" alt="">
+                <!-- <img class="carta" src="assets/cartas/2C.png" alt="">
+                <img class="carta" src="assets/cartas/2C.png" alt=""> -->
             </div>
 
         </div>
@@ -49,13 +49,14 @@
             <h1>Machine - <small>0</small></h1>
 
             <div id="jugador-computadora" class="jugador-cartas">
-                <img class="carta" src="assets/cartas/3C.png" alt="">
+                <!-- <img class="carta" src="assets/cartas/3C.png" alt=""> -->
             </div>
 
         </div>
 
     </div>
     
+    <script src="assets/js/underscore.js"></script>
     <script src="assets/js/juego.js"></script>
 
 </body>
